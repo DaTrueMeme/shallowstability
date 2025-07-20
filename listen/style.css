@@ -57,6 +57,11 @@ body {
 .nav-item a {
     color: white;
     text-decoration: none;
+    transition: font-size 0.25s ease-in-out;
+}
+
+.nav-item:hover {
+    font-size: 18px;
 }
 
 .nav-item a .navlogo {
