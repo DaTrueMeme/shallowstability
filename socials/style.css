@@ -52,11 +52,12 @@ body {
     margin: 0 10px;
     color: white;
     text-decoration: none;
-    transition: font-size 0.25s ease-in-out;
+    transition: font-size 0.25s ease-in-out, letter-spacing 0.25s ease-in-out;
 }
 
 .nav-item:hover {
     font-size: 18px;
+    letter-spacing: 2px;
 }
 
 .nav-item a {
